@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "22" # Nâng cấp lên Node 22 để sửa cảnh báo Node 20 deprecated
+          node-version: "24" # Nâng cấp lên Node 22 để sửa cảnh báo Node 20 deprecated
           cache: "npm"
 
       - name: Setup Pages
