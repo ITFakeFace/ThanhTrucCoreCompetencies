@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  cacheComponents: true,
+  cacheComponents: false,
   partialPrefetching: true,
   turbopack: {
     rules: {
